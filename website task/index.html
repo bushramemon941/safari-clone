@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <title>Your Website</title>
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <img src="./imges's/logo.jpg" alt="Logo">
+    </div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#package">Package</a></li>
+        <li><a href="#book">Book</a></li>
+    </ul>
+    
+</nav>
+<div class="slider-container">
+    
+        
+    <div class="slider">
+        <div class="slide">
+            
+            <img src="imges's/01c.jpg" alt="Slide 1">
+            
+        </div>
+        <div class="slide">
+            <img src="imges's/2c.jpg" alt="slide 2">
+        </div>
+        <div class="slide">
+            <img src="imges's/3c.jpg" alt="Slide 3">
+        </div>
+    </div>
+<script>
+    let currentIndex = 0;
+
+function showSlide(index) {
+    const slides = document.querySelector('.slider');
+    const totalSlides = slides.children.length;
+    currentIndex = (index + totalSlides) % totalSlides;
+
+    slides.style.transform = `translateX(${-currentIndex * 100}%)`;
+}
+
+function autoSlide() {
+    showSlide(currentIndex + 1);
+}
+
+// Auto slide functionality
+setInterval(autoSlide, 5000); // Change the time interval (in milliseconds) as needed
+
+</script>
+</div>
+<section class="s">
+
+    <h1 class="heading"> OUR SERVICES </h1>
+ 
+    <div class="cd">
+ 
+       <div class="c">
+          <img src="images/icon-1 (2).png" alt="">
+          <h3>pick-up</h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-1.png" alt="">
+          <h3>adventurous</h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/sand boarding-01.png" alt="">
+          <h3>sand boarding</h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-4-01.png" alt="">
+          <h3>Desert Sunset photo-stop</h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-5-01.png" alt="">
+          <h3>Quad Bike ATV</h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-6-01.png" alt="">
+          <h3>Buggy</h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-7-01.png" alt="">
+          <h3>Camel farm</h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-6.png" alt="">
+          <h3>Bedouin Camp</h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-8-01.png" alt="">
+          <h3>BBQ Buffet Dinner (Veg and Non Veg)</h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-9-01.png" alt="">
+          <h3>Unlimited Soft drinks and Water</h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-10-01.png" alt="">
+          <h3>Shisha</h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-11-01.png" alt="">
+          <h3>Belly Dance Show </h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-12-01.png" alt="">
+          <h3>Fire Show </h3>
+       </div>
+ 
+       <div class="c">
+          <img src="imges's/icon-13-01.png" alt="">
+          <h3>Good Vibes </h3>
+       </div>
+    </div>
+ 
+ </section>
+<div class="about-container">
+    <div class="about-content">
+        <img src="imges's/IMG-20231201-WA0004.jpg" alt="About Image">
+        <div class="text">
+            <h2>About Us</h2>
+            <p>
+                Arabian Vip Desert Safari Offers A Wide Range Of All-Inclusive Packages For Different Kinds Of Desert Safaris With Many Additional Options, Such As Off-Road Adventure Seekers Like Dune Buggies And Quad Bikes With Skilled Professional Guides. We Can Customize Your Desert Safari Requirements As We Have Many Camps. The Camps Are Personally Selected By Our Desert Safari Experts And Are Clean And Hygienic. All Our Cars Are 4x4 And Our Drivers Are Experts And Licensed. We Are The Most Preferred Online Agent For Desert Safari Bookings, As We Don't Believe In Making An Extra Buck Just Because We Have A Chance. </p>
+         
+        </div>
+    </div>
+</div>
+<div class="main">
+    <h1>OUR PACKAGES</h1>
+    <div class="div">
+
+        <div class="c">
+           <div class="">
+              <img src="imges's/IMG-20231201-WA0003.jpg" alt="">
+           </div>
+           <div class="content">
+              <h3>Self-Drive Desert Safari </h3>
+              <div class="price"><span>AED-</span>40</div>
+              <div class="list">
+              <p><i class="fas fa-check"></i>Sunset Photo Stop</p>
+              <p><i class="fas fa-check"></i>Sand Boarding</p>
+              <p><i class="fas fa-check"></i>Shesha smoke(specific place)</p>
+              <p><i class="fas fa-check"></i>Henna painting for ladies and child</p>
+              <p><i class="fas fa-check"></i>Tanoura Dance shows & Khaleej dance shows</p>
+              <p><i class="fas fa-check"></i>2 bally dance shows & fire show</p>
+              <p><i class="fas fa-check"></i>Unlimited soft drikns, mineral water & Tea</p>
+              <p><i class="fas fa-check"></i>Camel ride & photo in traditional costumes</p>
+              <p><i class="fas fa-check"></i>Dune Bashing in 4x4 land cruiser</p>
+              <p><i class="fas fa-check"></i>B.B.Q dinner with veg & non veg option </p>
+              <a href="book.php" class="btn">book now</a>
+              </div>  
+           </div>
+        </div>
+        <div class="c">
+            <div class="">
+               <img src="imges's/IMG-20231201-WA0005.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Desert Safari Pickup & Drop off By Bus </h3>
+               <div class="price"><span>AED-</span>50</div>
+               <div class="list">
+               <p><i class="fas fa-check"></i>B.B.Q Dinner with veg & non veg option</p>
+               <p><i class="fas fa-check"></i>2 Bally dance shows & fire shows</p>
+               <p><i class="fas fa-check"></i>Shesha smoke(specific place)</p>
+               <p><i class="fas fa-check"></i>Henna painting for ladies and child</p>
+               <p><i class="fas fa-check"></i>Tanoura Dance shows & Khaleej dance shows</p>            <p><i class="fas fa-check"></i>Break Fast Tea & Coffee</p>
+               <p><i class="fas fa-check"></i>Unlimited soft drikns, mineral water & Tea</p>
+               <p><i class="fas fa-check"></i>Camel ride & photo in traditional costumes</p>
+               <p><i class="fas fa-check"></i>Dune Bashing in 4x4 land cruiser</p>
+               <p><i class="fas fa-check"></i>pick & drop by luxury bus from specific location </p>
+               <p><i class="fas fa-check"></i>Sunset photo stop & sand boarding </p>
+   
+               <a href="book.php" class="btn">book now</a>
+               </div>  
+            </div>
+         </div>
+         <div class="c">
+            <div class="image">
+               <img src="imges's/IMG-20231201-WA0006.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3>Evening Desert Safari </h3>
+               <div class="price"><span>AED-</span>90</div>
+               <div class="list">
+               <p><i class="fas fa-check"></i>B.B.Q Dinner with veg & non veg option</p>
+               <p><i class="fas fa-check"></i>2 Bally dance shows & fire shows</p>
+               <p><i class="fas fa-check"></i>Shesha smoke(specific place)</p>
+               <p><i class="fas fa-check"></i>Henna painting for ladies and child</p>
+               <p><i class="fas fa-check"></i>Tanoura Dance shows & Khaleej dance shows</p>            <p><i class="fas fa-check"></i>Break Fast Tea & Coffee</p>
+               <p><i class="fas fa-check"></i>Unlimited soft drikns, mineral water & Tea</p>
+               <p><i class="fas fa-check"></i>Camel ride & photo in traditional costumes</p>
+               <p><i class="fas fa-check"></i>Dune Bashing in 4x4 land cruiser</p>
+               <p><i class="fas fa-check"></i>pick & drop by luxury cars from home location </p>
+               <p><i class="fas fa-check"></i>Sunset photo stop & sand boarding </p>
+   
+               <a href="book.php" class="btn">book now</a>
+               </div>  
+            </div>
+         </div>
+         <div class="c">
+            <div class="image">
+               <img src="imges's/abudhabi-01.png" alt="">
+            </div>
+            <div class="content">
+               <h3>Abu Dhabi City Tour </h3>
+               <div class="price"><span>AED-</span>149</div>
+               <div class="list">
+               <p><i class="fas fa-check"></i>Dates Market</p>
+               <p><i class="fas fa-check"></i>Sheikh Zayad Grand Mosque Abu Dhabi</p>
+               <p><i class="fas fa-check"></i>Place of Royal Family</p>
+               <p><i class="fas fa-check"></i>Drive Through Presidential</p>
+               <p><i class="fas fa-check"></i>Marina Mall</p>            
+               <p><i class="fas fa-check"></i>Ferrari World (Photo Stop)</p>
+               <p><i class="fas fa-check"></i>Heritage Village and Museum</p>
+               <p><i class="fas fa-check"></i>Emirates Palace (Photo Stop)</p>
+               <p><i class="fas fa-check"></i>Skyscraper of Abu Dhabi Sightseeing</p>
+               <p><i class="fas fa-check"></i>pick & drop by luxury bus from specific location </p>
+               <a href="book.php" class="btn">book now</a>
+               </div>  
+            </div>
+         </div>
+         <div class="c">
+            <div class="image">
+               <img src="imges's/overnight.png" alt="">
+            </div>
+            <div class="content">
+               <h3>Overnight Desert Safari</h3>
+               <div class="price"><span>AED-</span>189</div>
+               <div class="list">
+               <p><i class="fas fa-check"></i>B.B.Q Dinner with veg & non veg option</p>
+               <p><i class="fas fa-check"></i>Overnight stay in camp blanket, pillowmatters</p>
+               <p><i class="fas fa-check"></i>2 Bally dance shows & fire shows</p>
+               <p><i class="fas fa-check"></i>Shesha smoke(specific place)</p>
+               <p><i class="fas fa-check"></i>Henna painting for ladies and child</p>
+               <p><i class="fas fa-check"></i>Tanoura Dance shows & Khaleej dance shows</p>            <p><i class="fas fa-check"></i>Break Fast Tea & Coffee</p>
+               <p><i class="fas fa-check"></i>Unlimited soft drikns, mineral water & Tea</p>
+               <p><i class="fas fa-check"></i>Camel ride & photo in traditional costumes</p>
+               <p><i class="fas fa-check"></i>Dune Bashing in 4x4 land cruiser</p>
+               <p><i class="fas fa-check"></i>pick & drop by luxury car from your location </p>
+               <p><i class="fas fa-check"></i>Sunset photo stop & sand boarding </p>
+               <p><i class="fas fa-check"></i>Break Fast Tea & Coffee</p>
+               <a href="book.php" class="btn">book now</a>
+               </div>  
+            </div>
+         </div>
+         <div class="c">
+            <div class="image">
+               <img src="imges's/evening.png" alt="">
+            </div>
+            <div class="content">
+               <h3>Evening Desert Safari With Quad Bike </h3>
+               <div class="price"><span>AED-</span>215</div>
+               <div class="list">
+               <p><i class="fas fa-check"></i>B.B.Q Dinner with veg & non veg option</p>
+               <p><i class="fas fa-check"></i>2 Bally dance shows & fire shows</p>
+               <p><i class="fas fa-check"></i>Shesha smoke(specific place)</p>
+               <p><i class="fas fa-check"></i>Henna painting for ladies and child</p>
+               <p><i class="fas fa-check"></i>Sunset photo stop & sand boarding </p>
+               <p><i class="fas fa-check"></i>Tanoura Dance shows & Khaleej dance shows</p>
+               <p><i class="fas fa-check"></i>30 minutes of Quad Biking</p>
+               <p><i class="fas fa-check"></i>Unlimited soft drikns, mineral water & Tea</p>
+               <p><i class="fas fa-check"></i>Camel ride & photo in traditional costumes</p>
+               <p><i class="fas fa-check"></i>Dune Bashing in 4x4 land cruiser</p>
+               <p><i class="fas fa-check"></i>pick & drop by luxury car from your location</p>
+   
+               <a href="book.php" class="btn">book now</a>
+               </div>  
+            </div>
+         </div>
+</div>
+<footer>
+    <div class="footer-content">
+        
+        <div class="footer-section links">
+            <h2>Quick Links</h2>
+            <div>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+        <div class="footer-section contact">
+            <h2>Contact Us</h2>
+            <p>Email: example@example.com</p>
+            <p>Phone:0300000000</p>
+        </div>
+        <div class="footer-section social">
+            <h2>Follow Us</h2>
+            <a href="#" target="_blank"><img src="imges's/f.png" alt=""> facebook</a>
+            <a href="#" target="_blank"><img src="imges's/tiwter.webp" alt="Twitter"> Tiwtter</a>
+            <a href="#" target="_blank"><img src="imges's/insta.webp" alt="Instagram"> Instagram</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

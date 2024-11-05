@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust the height as needed */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #7d7b7b;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.search button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #45a049;
+}
+/* Existing CSS code */
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+
+
+}
+h1{
+    text-align: center;
+    color:red ;
+}
+/* Existing CSS code */
+
+.about-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-content .text {
+    max-width: 600px;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Existing CSS code */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-section img {
+    width: 25px; /* Adjust the size of social media icons as needed */
+    height: auto;
+}
+
+.s.cd{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem,1fr));
+    gap: 1.5rem;
+}
+.c{
+    padding: 3rem 2rem;
+    background-color: chocolate;
+    text-align: center;
+    cursor: pointer;
+     
+    
+    
+    
+}
+.c:hover{
+    background-color: black;
+    color: white;
+}
+.s.cd.c img{
+    height: 7rem;
+}
+.s.cd.c {
+    
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+.s.cd{
+    height: 25rem;
+    overflow: hidden;
+}
+h3{
+    color: white;
+}
+
+
+.cd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.c{
+    width: calc(20% - 10px); /* Adjust the width as per your design */
+    margin-bottom: 10px;
+    position: relative;
+
+}
+.c img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.div{
+position: relative;
+display: flex;
+
+flex-wrap: wrap;
+justify-content: space-between;
+justify-items: center;
+
+}
+.main{
+    display: flexbox;
+}
